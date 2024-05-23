@@ -1,0 +1,151 @@
+/* Set the minimum height of the page body to the viewport height */
+.body {
+  min-height: 100vh;
+}
+
+/* Hide */
+.change_btn {
+  display: none;
+}
+
+/* About the style of the button that switches to reading mode */
+.return_btn {
+  float: right;
+  background-color: blueviolet;
+  border: none;
+  color: white;
+  font-size: 15px;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 8px 4px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+/* Set the font size of the paragraph with id "topic" to 32 pixels */
+p#topic {
+  font-size: 32px;
+}
+
+/* Hide */
+.left_part {
+  display: none;
+}
+
+/* Hide */
+.navigation {
+  display: none;
+}
+
+/* Hide */
+.clear{
+  clear: both;
+}
+
+/* Hide */
+.footer {
+  display: none;
+}
+
+/* This is the typesetting of the content of the article */
+.middle {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;  /* Set the minimum height of the middle section to the viewport height */
+  background-color: white;
+}
+
+/* leftBlock, container and rightBlock occupy 15%, 50% and 35% of the page respectively */
+/* And they are all lined up next to the left. */
+.leftBlock {
+  float: left;
+  width: 15%;
+}
+
+.container {
+  float: left;
+  width: 50%;  /* Set the width of the image to 50% of its container */
+  height: 100%;  /* Set the width of the image to 100% of its container */
+  background-color: white;
+}
+
+.container img {
+  vertical-align: top;
+  width: 90%;  /* Set the width of the image to 90% of its container */
+}
+
+/* The image is centered both horizontally and vertically */
+.imgBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Special settings for assignment.html */
+.assi_container {
+  width: 50%;  /* Set the width of the image to 50% of its container */
+  height: 100%;  /* Set the width of the image to 100% of its container */
+}
+
+/* The background color of the h1 tag of assignment.html becomes orange */
+.assi_container h1 {
+  background-color: #CCCCCC;
+  padding: 30px;
+}
+
+/* Right side of the page */
+.rightBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  float: left;
+  width: 35%;
+  height: 100%;
+  background-color: white;
+}
+
+/* Hide */
+.rightBlock img {
+  display: none;
+}
+
+/* Hide */
+.vertical_game {
+  display: none;
+}
+
+/* Hide */
+.facebook_setting {
+  display: none;
+}
+
+.author {
+  color: #555;
+  font-family: GeoBrandRegular,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.content {
+  font-family: Georgia,Times New Roman,Times,serif;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: .1px;  /* Add some letter spacing to the text */
+  line-height: 1.632;
+  margin-bottom: 24px;
+}
+
+.news {
+  border: 1px solid #ccc;
+  color: #555;
+  font-family: GeoEditRegular,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  letter-spacing: .1px;  /* Add some letter spacing to the text */
+  line-height: 1.5;
+  margin: 32px 0;
+  overflow: hidden;  /* Hide any content that overflows */
+  padding: 16px 20px;  /* This sets the padding for an element to 16 pixels on the top and bottom, and 20 pixels on the left and right */
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Link with the corresponding css file. -->
+	<link id="readmode" rel="stylesheet" type="text/css" href="../css/universal.css">
+	<!-- Set the site's identifier -->
+	<link rel="shortcut icon" type="image/png" href="../image/icon.png">
+	<title>About me page</title>
+</head>
+
+<body>
+	<!-- Assigns a location to the header, which contains the icon, site title and navigation bar-->
+	<div id="header">
+		<div class="image-container">
+			<div class="left_part">
+				&nbsp; &nbsp; &nbsp; &nbsp; 
+				<img src="../image/icon.png" alt="This is my website icon.">
+				<p id="topic">About me</p>
+			</div>
+			<!-- Button for switching to reading mode or normal mode -->
+			<button class="change_btn" onclick="readMode()">Switch To Read Mode</button>
+        	<button class="return_btn" onclick="readMode()">Switch To Regular Mode</button>
+		</div>
+		<div class="navigation">
+			<a class="active" href="./aboutme.html">About me</a>
+			<a href="../assignment.html">Assignment</a>
+			<a href="./animal.html">Animal game</a>
+			<a href="./urban_animals.html">Urban animal</a>
+			<a href="./wild_animals.html">Wild animal</a>
+			<a href="../index.html">Home</a>
+		</div>
+	</div> 
+
+	<br>
+
+	<!-- To allocate position for webpage content, which will be divided into three sections, namely leftBlock, container, and rightBlock, as I want to place the text content in the middle of the page. -->
+	<div class="middle">
+
+		<div class="leftBlock">
+			<br>
+		</div>
+
+		<div class="container">
+			<h1>Me & My passion</h1>
+			<p class="content">Firstly, welcome to my website "Observing Animals". My name is Xueyuan Ma, and I am currently studying at the Australian National University. In my life, I am passionate about animals. Although my major is computer science, it does not prevent me from loving animals. When I browse the internet, my favorite website to visit is National Geographic. Their website showcases various unique animals through videos and pictures. These media not only provide visual impact but also touch me spiritually with the stories behind them.</p><br>
+			<p class="content">My dream is to become an animal conservationist, and I believe that through the "Observing Animals" website, I can lay the foundation for this desire. This website is not just a simple animal display platform, but also an expression of my passion for animals and a manifestation of my dream. I hope to use this platform to convey my passion and call for animal protection to more people. I believe that by showcasing the beauty and mystery of animals, more people will develop awareness and a sense of protection towards them.</p><br>
+			<p class="content">On the "Observing Animals" website, you will discover many unique stories and photos about animals. These stories and photos not only showcase the beauty of animals but also contain a lot of information about their living environment and habits. This information can allow you to gain a deeper understanding of the true nature of animals and ignite your sense of protection towards them.</p><br>
+
+			<h1 id="reflection">My reflective</h1>
+			<p class="content">First, responsive design. The size of devices used by different users may vary. Therefore, I need to ensure that the website viewed by the majority of users is the same as the website I designed. Prior to realizing this, I had been using pixel dimensions to define the size of each component. When I changed the page scale, the size of the components did not change, resulting in divs on the page not being in the expected position. As I learned in the course, I realized the importance of responsive design. Ultimately, I changed all components that needed to be defined to percentage sizes. When I change the page scale, the size of the components in the website also changes and they remain in the expected position.</p><br>
+			<p class="content">Second, providing a good browsing experience for users. Initially, I simply displayed all the content I wanted to present to users on one page, without organizing or laying out the page. The entire page was a mess. As I learned in the course, I realized that the user's experience when visiting my website will depend on my page organization, layout, color scheme, and content. At the same time, I also need to design some interactive components for users, which can enhance the user's experience.</p><br>
+		</div>
+
+		<div class="rightBlock">
+			<!-- insert a picture -->
+			<img src="../image/me.png" alt="This is myself picture" class="me">
+		</div>
+
+	</div>
+
+	<!-- Set up a div, ready to clear floats to fix layout issues -->
+	<div class="clear"> </div>
+
+	<!-- To allocate position for the footer, which contains a site map button and all web links -->
+	<div class="footer">
+		<a class="button" href="./sitemap.html">Site Map</a>
+		<ul>
+			<li><h3>HOME</h3></li>
+			<li><a href="../index.html">Index</a></li>
+			<li><a href="./wild_animals.html">Wild animal</a></li>
+			<li><a href="./urban_animals.html">Urban animal</a></li>
+			<li><a href="./animal.html">Animal game</a></li>
+			<li><a href="../assignment.html">Assignment</a></li>
+			<li><a href="./aboutme.html">About me</a></li>
+		</ul>
+		<ul>
+			<li><h3>WILD ANIMALS</h3></li>
+			<li><a href="./fish.html">Grouper</a></li>
+			<li><a href="./cougar.html">Cougar</a></li>
+			<li><a href="./snow_leopard.html">Snow leopard</a></li>
+		</ul>
+		<ul>
+			<li><h3>URBAN ANIMALS</h3></li>
+			<li><a href="./elephant.html">Elephant</a></li>
+			<li><a href="./fox.html">Fox</a></li>
+			<li><a href="./littlepanda.html">Raccoons</a></li>
+			<li><a href="./alcedo.html">Alcedo</a></li>
+			<li><a href="./bear.html">Polar bear</a></li>
+		</ul>
+		<ul>
+			<li><h3>ANIMAL GAME</h3></li>
+			<li><a href="./devilfish.html">Devil fish</a></li>
+			<li><a href="./fennec_fox.html">Fennec fox</a></li>
+			<li><a href="./rhinoceros_beetles.html">Dynastinae</a></li>
+			<li><a href="./violetear.html">Violetear</a></li>
+			<li><a href="./scarletmacaw.html">Toco toucan</a></li>
+			<li><a href="./butterfly.html">Butterfly</a></li>
+			<li><a href="./whale.html">Whale</a></li>
+			<li><a href="./tiger.html">Tiger</a></li>
+			<li><a href="./sloth.html">Sloth</a></li>
+			<li><a href="./snake.html">Snake</a></li>
+		</ul>
+	</div>
+
+	<!-- Link with the corresponding js file. -->
+	<script src="../js/universal.js"></script>
+	<!-- <script type="text/javascript"></script> -->
+
+</body>
+
+</html>

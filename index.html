@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Link with the corresponding css file. -->
+	<link rel="stylesheet" type="text/css" href="./css/universal.css">
+	<!-- Set the site's identifier -->
+	<link rel="shortcut icon" type="image/png" href="./image/icon.png">
+	<title>Observe Animals</title>
+</head>
+
+<body>
+	<!-- Assigns a location to the header, which contains the icon, site title and navigation bar-->
+	<div id="header">
+		<div class="image-container">
+			<div class="left_part">
+				&nbsp; &nbsp; &nbsp; &nbsp; 
+				<img src="./image/icon.png" alt="This is my website icon.">
+				<p id="topic">Observe Animals</p>
+			</div>
+	    </div>
+		<div class="navigation">
+			<a href="./other/aboutme.html">About me</a>
+			<a href="./assignment.html">Assignment</a>
+			<a href="./other/animal.html">Animal game</a>
+			<a href="./other/urban_animals.html">Urban animal</a>
+			<a href="./other/wild_animals.html">Wild animal</a>
+			<a class="active" href="./index.html">Home</a>
+		</div>
+	</div>
+
+	<!-- To allocate position for the carousel art gallery -->
+	<div class="index_contianer">
+		<div class="mySlides">
+			<div class="numbertext">1 / 10</div>
+			<img src="./image/cougar.png" alt="This is a cougar image.">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">2 / 10</div>
+			<img src="./image/fish.png" alt="This is a grouper image.">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">3 / 10</div>
+			<img src="./image/snow_leopard.png" alt="This is a snow leopard image.">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">4 / 10</div>
+			<img src="./image/elephant.png" alt="This is an elephant image.">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">5 / 10</div>
+			<img src="./image/fox3.png" alt="This is a fox image.">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">6 / 10</div>
+			<img src="./image/littlepanda.png" alt="This is a raccoon image.">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">7 / 10</div>
+			<img src="./image/alcedo.png" alt="This is an alcedo image.">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">8 / 10</div>
+			<img src="./image/particalbear.png" alt="This is a bear image.">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">9 / 10</div>
+			<img src="./image/fennecfox.png" alt="Like most desert dwellers, the fennec fox has the ability to go for long periods without water.">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">10 / 10</div>
+			<img src="./image/snake.png" alt="A green snake coiled together">
+		</div>
+    
+		<a class="prev" onclick="plusSlides(-1)"><p>Before</p></a>
+		<a class="next" onclick="plusSlides(1)"><p>After</p></a>
+
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+
+		<div class="row">
+			<div class="column">
+			    <img class="demo cursor" src="./image/cougar.png" style="width:100%" onclick="currentSlide(1)" alt="A Big Cat Ready for Its Close-Up">
+			</div>
+			<div class="column">
+			    <img class="demo cursor" src="./image/fish.png" style="width:100%" onclick="currentSlide(2)" alt="A image of a grouper mating frenzy">
+			</div>
+			<div class="column">
+			    <img class="demo cursor" src="./image/snow_leopard.png" style="width:100%" onclick="currentSlide(3)" alt="World of the Snow Leopard">
+			</div>
+			<div class="column">
+			    <img class="demo cursor" src="./image/elephant.png" style="width:100%" onclick="currentSlide(4)" alt="Elephants in the room">
+			</div>
+			<div class="column">
+			    <img class="demo cursor" src="./image/fox3.png" style="width:100%" onclick="currentSlide(5)" alt="The secret life of urban foxes">
+			</div>
+			<div class="column">
+			    <img class="demo cursor" src="./image/littlepanda.png" style="width:100%" onclick="currentSlide(6)" alt="How 'trash pandas' conquered the city">
+			</div>
+			<div class="column">
+			    <img class="demo cursor" src="./image/alcedo.png" style="width:100%" onclick="currentSlide(7)" alt="The source of alcedo">
+			</div>
+			<div class="column">
+			    <img class="demo cursor" src="./image/particalbear.png" style="width:100%" onclick="currentSlide(8)" alt="House of bears">
+			</div>
+			<div class="column">
+			    <img class="demo cursor" src="./image/fennecfox.png" style="width:100%" onclick="currentSlide(9)" alt="Like most desert dwellers, the fennec fox has the ability to go for long periods without water.">
+			</div>
+			<div class="column">
+			    <img class="demo cursor" src="./image/snake.png" style="width:100%" onclick="currentSlide(10)" alt="A green snake coiled together">
+			</div>
+		</div>
+	</div>
+
+	<!-- Set up a div, ready to clear floats to fix layout issues -->
+	<div class="clear"> </div>
+
+
+	<!-- To allocate position for the footer, which contains a site map button and all web links -->
+	<div class="footer">
+		<a class="button" href="./other/sitemap.html">Site Map</a>
+		<ul>
+			<li><h3>HOME</h3></li>
+			<li><a href="./index.html">Index</a></li>
+			<li><a href="./other/wild_animals.html">Wild animal</a></li>
+			<li><a href="./other/urban_animals.html">Urban animal</a></li>
+			<li><a href="./other/animal.html">Animal game</a></li>
+			<li><a href="./assignment.html">Assignment</a></li>
+			<li><a href="./other/aboutme.html">About me</a></li>
+		</ul>
+		<ul>
+			<li><h3>WILD ANIMALS</h3></li>
+			<li><a href="./other/fish.html">Grouper</a></li>
+			<li><a href="./other/cougar.html">Cougar</a></li>
+			<li><a href="./other/snow_leopard.html">Snow leopard</a></li>
+		</ul>
+		<ul>
+			<li><h3>URBAN ANIMALS</h3></li>
+			<li><a href="./other/elephant.html">Elephant</a></li>
+			<li><a href="./other/fox.html">Fox</a></li>
+			<li><a href="./other/littlepanda.html">Raccoons</a></li>
+			<li><a href="./other/alcedo.html">Alcedo</a></li>
+			<li><a href="./other/bear.html">Polar bear</a></li>
+		</ul>
+		<ul>
+			<li><h3>ANIMAL GAME</h3></li>
+			<li><a href="./other/devilfish.html">Devil fish</a></li>
+			<li><a href="./other/fennec_fox.html">Fennec fox</a></li>
+			<li><a href="./other/rhinoceros_beetles.html">Dynastinae</a></li>
+			<li><a href="./other/violetear.html">Violetear</a></li>
+			<li><a href="./other/scarletmacaw.html">Toco toucan</a></li>
+			<li><a href="./other/butterfly.html">Butterfly</a></li>
+			<li><a href="./other/whale.html">Whale</a></li>
+			<li><a href="./other/tiger.html">Tiger</a></li>
+			<li><a href="./other/sloth.html">Sloth</a></li>
+			<li><a href="./other/snake.html">Snake</a></li>
+		</ul>
+	</div>
+
+	<script>
+		// This part belongs to the gallery function of index.html.
+		// Define a variable slideIndex and initialize it to 1
+		let slideIndex = 1;
+		// Call the function showSlides with slideIndex as a parameter
+		showSlides(slideIndex);
+
+		// Define a function plusSlides to control the display of the next or previous image
+		function plusSlides(n) {
+			// Call the function showSlides with slideIndex incremented by n as a parameter
+			showSlides(slideIndex += n);
+		}
+
+		  // Define a function currentSlide to control the display of the current image
+		function currentSlide(n) {
+			// Call the function showSlides with slideIndex set to n as a parameter
+			showSlides(slideIndex = n);
+		}
+
+		// Define a function showSlides to display images in a slideshow
+		function showSlides(n) {
+			let i;
+			// Get all elements with the class "mySlides" and store them in an array
+			let slides = document.getElementsByClassName("mySlides");
+			// Get all elements with the class "demo" and store them in an array
+			let dots = document.getElementsByClassName("demo");
+			// Get the element with the id "caption"
+			let captionText = document.getElementById("caption");
+
+			// If n is greater than the length of the slides array, set slideIndex to 1
+			if (n > slides.length) {slideIndex = 1}
+			// If n is less than 1, set slideIndex to the length of the slides array
+			if (n < 1) {slideIndex = slides.length}
+
+			// Loop through each element in the slides array and set their display property to "none"
+			for (i = 0; i < slides.length; i++) {
+			    slides[i].style.display = "none";
+			}
+		// Loop through each element in the dots array and replace "active" in their className property with an empty string
+			for (i = 0; i < dots.length; i++) {
+			    dots[i].className = dots[i].className.replace(" active", "");
+			}
+
+			// Set the display property of the slide at index slideIndex-1 in the slides array to "block"
+			slides[slideIndex-1].style.display = "block";
+			// Add "active" to the end of the className property of the dot at index slideIndex-1 in the dots array
+			dots[slideIndex-1].className += " active";
+			// Set the innerHTML of captionText to the alt attribute value of the dot at index slideIndex-1 in the dots array
+			captionText.innerHTML = dots[slideIndex-1].alt;
+		}
+
+	</script>
+
+</body>
+
+</html>

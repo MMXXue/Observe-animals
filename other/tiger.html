@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Link with the corresponding css file. -->
+	<link id="readmode" rel="stylesheet" type="text/css" href="../css/universal.css">
+	<!-- Set the site's identifier -->
+	<link rel="shortcut icon" type="image/png" href="../image/icon.png">
+	<title>Tiger</title>
+</head>
+
+<body>
+	<!-- Assigns a location to the header, which contains the icon, site title and navigation bar-->
+	<div id="header">
+		<div class="image-container">
+			<div class="left_part">
+				&nbsp; &nbsp; &nbsp; &nbsp; 
+				<img src="../image/icon.png" alt="This is my website icon.">
+				<p id="topic">Animal Science Education</p>
+			</div>
+			<!-- Button for switching to reading mode or normal mode -->
+			<button class="change_btn" onclick="readMode()">Switch To Read Mode</button>
+        	<button class="return_btn" onclick="readMode()">Switch To Regular Mode</button>
+		</div>
+		<div class="navigation">
+			<a href="./aboutme.html">About me</a>
+			<a href="../assignment.html">Assignment</a>
+			<a class="active" href="./animal.html">Animal game</a>
+			<a href="./urban_animals.html">Urban animal</a>
+			<a href="./wild_animals.html">Wild animal</a>
+			<a href="../index.html">Home</a>
+		</div>
+	</div> 
+
+	<br>
+
+	<!-- To allocate position for webpage content, which will be divided into three sections, namely leftBlock, container, and rightBlock, as I want to place the text content in the middle of the page. -->
+	<div class="middle">
+
+		<div class="leftBlock">
+			<br>
+		</div>
+
+		<div class="container">
+			<div class="imgBox">
+				<img src="../image/tiger.png" alt="Tiger facing the camera">
+			</div>
+			<p class="author">Tiger facing the camera</p>
+			<br>
+			<h1 class="title">Tiger</h1>
+			<hr>
+			<p class="content">Wikipedia says:</p><br>
+			<p class="content">The tiger (Panthera tigris) is the largest living cat species and a member of the genus Panthera. It is most recognisable for its dark vertical stripes on orange fur with a white underside. An apex predator, it primarily preys on ungulates, such as deer and wild boar. It is territorial and generally a solitary but social predator, requiring large contiguous areas of habitat to support its requirements for prey and rearing of its offspring. Tiger cubs stay with their mother for about two years and then become independent, leaving their mother's home range to establish their own.</p><br>
+			<a href="https://en.wikipedia.org/wiki/Tiger"><p class="news">Read more about tiger (Click me!)</p></a><br>
+		</div>
+
+		<div class="rightBlock">
+			<img src="../image/vertical.png" alt="This is a vertical version of the image map." class="vertical_game" usemap="#image-map" width="378" height="672">
+			<!-- A map tag for an image map, using a map named image-map -->
+			<map name="image-map">
+				<!-- Link to different areas -->
+			    <area alt="Devil_fish" title="Devil_fish" href="./devilfish.html" coords="86,400,77,440,72,466,78,479,88,483,97,489,97,502,110,495,120,477,138,461,127,444,109,439,89,418,85,410" shape="poly">
+			    <area alt="Whale" title="Whale" href="./whale.html" coords="6,386,30,394,50,411,61,414,72,424,61,429,63,438,73,444,72,464,75,477,97,490,98,502,112,496,120,479,136,486,165,488,192,497,206,508,204,520,195,528,177,527,152,534,124,533,88,551,68,549,103,528,88,524,77,522,62,520,31,524,15,521,23,512,54,502,42,478,42,448,44,422,30,404" shape="poly">
+			    <area alt="Snake" title="Snake" href="./snake.html" coords="187,325,182,318,175,322,172,331,185,344,161,344,145,347,144,360,139,369,145,379,141,387,136,397,133,405,130,409,136,412,144,412,147,420,161,421,169,431,181,432,199,426,206,411,194,407,207,389,212,377,209,365,197,355,198,348,198,340,190,335,180,328" shape="poly">
+			    <area alt="Tiger" title="Tiger" href="./tiger.html" coords="254,176,265,183,276,187,287,182,297,184,314,187,326,176,337,177,341,185,338,197,334,209,341,226,340,247,332,261,326,269,324,283,324,290,317,287,304,273,295,278,293,286,298,298,298,303,294,310,291,318,291,331,295,341,295,357,290,365,285,373,275,373,265,372,262,367,252,362,251,337,231,330,219,326,220,309,230,289,235,255,236,230,241,204,247,199,241,189,243,177" shape="poly">
+			    <area alt="Fennec_fox" title="Fennec_fox" href="./fennec_fox.html" coords="298,296,298,304,292,320,292,333,297,344,296,359,290,367,299,371,303,381,307,387,321,382,321,372,309,358,323,366,337,332,341,324,347,316,348,309,364,273,357,272,331,289,316,287,304,277,298,277,295,284" shape="poly">
+			    <area alt="Scarlet_macaw" title="Scarlet_macaw" href="./scarletmacaw.html" coords="295,381,283,381,271,392,252,409,241,422,242,433,242,441,228,517,244,496,265,446,273,448,290,428,299,413,302,402,327,408,308,389,301,385" shape="poly">
+			    <area alt="Butterfly" title="Butterfly" href="./butterfly.html" coords="104,244,98,254,99,267,91,271,76,271,67,278,77,284,91,286,96,277,105,272,103,286,114,272,124,276,107,264,114,259,111,248" shape="poly">
+			    <area alt="Rhinoceros_beetles" title="Rhinoceros_beetles" href="./rhinoceros_beetles.html" coords="29,251,17,265,18,278,18,289,18,304,31,312,35,290,36,275,45,265,39,266,30,268,25,265" shape="poly">
+			    <area  alt="Sloth" title="Sloth" href="./sloth.html" coords="63,304,55,317,53,325,54,336,61,355,59,372,61,384,69,383,73,376,74,355,80,350,82,356,84,376,86,383,95,376,97,356,100,319,86,309,74,305" shape="poly">
+			    <area alt="violetear" title="violetear" href="./violetear.html" coords="184,183,187,194,187,202,183,206,169,213,187,217,197,215,208,207,212,198,220,196,199,194" shape="poly">
+			</map>
+		</div>
+
+	</div>
+
+	<!-- Set up a div, ready to clear floats to fix layout issues -->
+	<div class="clear"> </div>
+
+	<!-- To allocate position for the footer, which contains a site map button and all web links -->
+	<div class="footer">
+		<a class="button" href="./sitemap.html">Site Map</a>
+		<ul>
+			<li><h3>HOME</h3></li>
+			<li><a href="../index.html">Index</a></li>
+			<li><a href="./wild_animals.html">Wild animal</a></li>
+			<li><a href="./urban_animals.html">Urban animal</a></li>
+			<li><a href="./animal.html">Animal game</a></li>
+			<li><a href="../assignment.html">Assignment</a></li>
+			<li><a href="./aboutme.html">About me</a></li>
+		</ul>
+		<ul>
+			<li><h3>WILD ANIMALS</h3></li>
+			<li><a href="./fish.html">Grouper</a></li>
+			<li><a href="./cougar.html">Cougar</a></li>
+			<li><a href="./snow_leopard.html">Snow leopard</a></li>
+		</ul>
+		<ul>
+			<li><h3>URBAN ANIMALS</h3></li>
+			<li><a href="./elephant.html">Elephant</a></li>
+			<li><a href="./fox.html">Fox</a></li>
+			<li><a href="./littlepanda.html">Raccoons</a></li>
+			<li><a href="./alcedo.html">Alcedo</a></li>
+			<li><a href="./bear.html">Polar bear</a></li>
+		</ul>
+		<ul>
+			<li><h3>ANIMAL GAME</h3></li>
+			<li><a href="./devilfish.html">Devil fish</a></li>
+			<li><a href="./fennec_fox.html">Fennec fox</a></li>
+			<li><a href="./rhinoceros_beetles.html">Dynastinae</a></li>
+			<li><a href="./violetear.html">Violetear</a></li>
+			<li><a href="./scarletmacaw.html">Toco toucan</a></li>
+			<li><a href="./butterfly.html">Butterfly</a></li>
+			<li><a href="./whale.html">Whale</a></li>
+			<li><a href="./tiger.html">Tiger</a></li>
+			<li><a href="./sloth.html">Sloth</a></li>
+			<li><a href="./snake.html">Snake</a></li>
+		</ul>
+	</div>
+
+	<!-- Link with the corresponding js file. -->
+	<script src="../js/universal.js"></script>
+
+</body>
+
+</html>
